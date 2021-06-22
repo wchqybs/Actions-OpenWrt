@@ -59,7 +59,7 @@ jobs:
       run: |
         df -hT $PWD
         git clone $REPO_URL -b $REPO_BRANCH openwrt
-        cd openwrt && git checkout 7883a5d2e672c63c9e992a09e523892f0ed748cf
+        cd openwrt && git checkout c0bacc8f954cf7716718d3f6cf67ea05970ec523
         cd package && git clone https://github.com/tty228/luci-app-serverchan.git
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
 
