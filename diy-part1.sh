@@ -17,4 +17,4 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
 # Use 5.4
-# sed -i "s/5.10/5.4/g" target/linux/x86/Makefile
+sed -i "s/5.10/5.4/g" target/linux/x86/Makefile
